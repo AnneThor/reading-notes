@@ -21,7 +21,10 @@ A compilation of my notes as I progress through the JS 401 Code Fellows Course :
 - Five Whys
 
 #### Course Modules
-**Data Modeling
-**Express API Server
-**Authentication and Authorization
-**Realtime (Sockets, Messages, Queuing)
+**Data Modeling**
+
+**Express API Server**
+
+**Authentication and Authorization**
+
+**Realtime (Sockets, Messages, Queuing)**

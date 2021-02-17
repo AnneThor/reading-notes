@@ -21,11 +21,23 @@ A compilation of my notes as I progress through the JS 401 Code Fellows Course
 - How to think like a programmer
 - Five Whys
 
-#### Course Modules
-**Data Modeling**
+### Course Overview
 
-**Express API Server**
+Backend | Frontend
+------- | --------
+[Data Modeling](#data-modeling) | [React Basics / Component Based Design](#react-basics)
+[Express API Server](#express-api-server) | [Hooks and Context](#hooks-and-context)
+[Authentication and Authorization](#authentication-and-authorization) | [Redux](#redux)
+[Realtime (Sockets, Messages, Queuing)](#realtime) | [React Native and other Frameworks](#react-native-etc)
 
-**Authentication and Authorization**
-
-**Realtime (Sockets, Messages, Queuing)**
+### Course Modules
+##### Data Modeling
+##### Express API Server 
+##### Authentication and Authorization 
+##### Realtime
+###### Sockets, Messages, Queuing
+##### Hooks and Context
+##### React Basics
+###### Component Based Design
+##### Redux
+##### React Native Etc

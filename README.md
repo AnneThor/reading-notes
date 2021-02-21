@@ -28,6 +28,7 @@ Backend | Frontend
 
 ### Course Modules
 #### Data Modeling
+[Node Ecosystem, TDD, CI/CD](week1/node-tdd-cicd.md)
 #### Express API Server 
 #### Authentication and Authorization 
 #### Realtime

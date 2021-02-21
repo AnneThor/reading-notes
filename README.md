@@ -14,12 +14,8 @@ A compilation of my notes as I progress through the JS 401 Code Fellows Course
 *I am joining the group for the 401 Course!*
 
 ## Code 401 - Advanced Software Development
-#### Pre Work
 
-- Solving Problems
-- Act like you make $1000/hour
-- How to think like a programmer
-- Five Whys
+**[Notes on Prework Readings](pre-work/prework.md)**
 
 ### Course Overview
 
@@ -31,13 +27,13 @@ Backend | Frontend
 [Realtime (Sockets, Messages, Queuing)](#realtime) | [React Native and other Frameworks](#react-native-etc)
 
 ### Course Modules
-##### Data Modeling
-##### Express API Server 
-##### Authentication and Authorization 
-##### Realtime
-###### Sockets, Messages, Queuing
-##### Hooks and Context
-##### React Basics
-###### Component Based Design
-##### Redux
-##### React Native Etc
+#### Data Modeling
+#### Express API Server 
+#### Authentication and Authorization 
+#### Realtime
+**Sockets, Messages, Queuing**
+#### Hooks and Context
+#### React Basics
+**Component Based Design**
+#### Redux
+#### React Native Etc

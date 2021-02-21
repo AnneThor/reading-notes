@@ -1,9 +1,10 @@
-#Reading pre work for JS 401
+# Reading pre work for JS 401
 
-- [Solving Programming Problems](#how-to-solve-programming problems)
+- [Solving Programming Problems](#how-to-solve-programming-problems)
 - [Your Time is Worth $1000/hour](#become-more-productive)
 - [Think Like a Programmer](#think-like-a-programmer)
 - [Five Whys](#five-whys)
+- **[Return to Main Page](https://annethor.github.io/reading-notes/)**
 
 ## [How to Solve Programming Problems](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
 

@@ -1,6 +1,6 @@
 # Node Ecosystem, TDD, CI/CD
 
-- **[Return to Main Page](https://annethor.github.io/reading-notes/)**
+**[Return to Main Page](https://annethor.github.io/reading-notes/)**
 
 ## 1. Describe (in plain English) what Array.map() does
 

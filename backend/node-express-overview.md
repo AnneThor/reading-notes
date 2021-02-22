@@ -99,7 +99,7 @@ app.set('view engine', 'some_template_engine_name')
 - Core components:
 
 Name | Function
------ ---------
+----- | ---------
 **website** | browse packages, set up profiles, manage access
 **Command Line Interface(CLI)** | runs from terminal, how developers interact with npm
 **registry** | large public database with repositories, metadata, and docs 

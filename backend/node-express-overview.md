@@ -7,7 +7,9 @@
 PATCH and PUT are both methods that apply modifications to an existing resource. The difference is that PATCH is a *partial* modification of the resource and PUT is a *total replacement* of the existing resource or *creation* of the resource. Another important difference is that calling PUT repeatedly will always yield the same result with no side effects; repeated calls to PATCH are not guaranteed to do so (ex/if there is an auto increment field in the resource, this may keep incrementing with repeated PATCH calls)
 
 MDN Docs:
+
 **[PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)**
+
 **[PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)**
 
 ## Provide links to 3 services or tools that allow you to “mock” an API for development like json-server
@@ -25,11 +27,12 @@ Potentially useful mock API services for development:
 - [json-server](https://www.npmjs.com/package/json-server)
 - [mirage-js](https://miragejs.com/docs/getting-started/introduction/)
 - [jest](https://www.npmjs.com/package/jest)
-*Note with Jest you would be using ```jest.spyOn``` and ```Fetch``` in testing along with your own version of the Fetch call to evaluate the functionality 
+*Note with Jest you would be using ```jest.spyOn``` and ```Fetch``` in testing along with your own version of the Fetch call to evaluate the functionality*
 - [JSON Schema Faker](https://github.com/json-schema-faker/json-schema-faker)
 - [fake{JSON}](https://fakejson.com/)
 
-**[How To: Rapid Development Via Mock APIS](https://www.freecodecamp.org/news/rapid-development-via-mock-apis-e559087be066/**)
+**[How To: Rapid Development Via Mock APIS](https://www.freecodecamp.org/news/rapid-development-via-mock-apis-e559087be066/)**
+
 [4 Ways to Fake an API](https://www.valentinog.com/blog/fake/)
 
 ## Compare and contrast Swagger and APIDoc.js 1 Which HTTP status codes should be sent with each type of (un)successful API call?
@@ -50,15 +53,15 @@ REST has become the more popular communication protocol. REST accesses data wher
 
 ## Reference Terms
 
-Term | Definition
------ -----------
-Web Server | System of one or more computers that accepts incoming HTTP requests and sends corresponding HTTP responses; primary function is to deliver web contents/resources to the client (requestor). "Web Server" can refer to the hardware (computer storing web resources and software) or the software itself(that controls how users interact with hosted files, minimum functionality HTTP)
-Node | Open source runtime environment allowing for developers to create server side applications in JavaScript
-Express | Express is a Node framework that simplifies HTTP verbs and allows for concise creation of HTTP verb handlers, simple integration with different view engines (i.e. porting information into front end templates), creates common settings such as port to use for connecting, and allows for additional request processing (middleware) to be inserted into request handling. It is unopinionated, meaning that you can structure it in various ways and use many different middleware options in myriad configurations.
-Routing | Routing is how the client request is connected to the code they will receive
-Server Side Routing | The code served to the user is determined by the url and corresponding HTTP request. Pros: requests only needed data, search engines are optimised for webpages that come from the server. Cons: each request triggers a full page refresh (can be redundant), full page refreshing can take time (dependent on website contents)
-Client Side Routing | The page is loaded and the code served to the user is determined by the JavaScript loaded on the page. Adjustments to the url cause a change in state with the JS, but do not trigger full page reload. Pros: less data is processed during client interactions resulting in generally faster UI, easier to implement smooth transitions/animations. Cons: Entire website must be loaded on first request (can be slow), potential to download unnecessary resources, requires more set up, less optimised SEO
-Web Request Response Cycle (WRRC) | This is how information flows through a web app: client opens brower/enters url, request gets sent to the server which takes the url request, server follows it's routing to serve back the requested web document and passes it to the view, the view renders the information in the desired format back to the client in their browser
+| Term | Definition|
+| ----- | ----------- |
+| Web Server | System of one or more computers that accepts incoming HTTP requests and sends corresponding HTTP responses; primary function is to deliver web contents/resources to the client (requestor). "Web Server" can refer to the hardware (computer storing web resources and software) or the software itself(that controls how users interact with hosted files, minimum functionality HTTP) |
+| Node | Open source runtime environment allowing for developers to create server side applications in JavaScript |
+| Express | Express is a Node framework that simplifies HTTP verbs and allows for concise creation of HTTP verb handlers, simple integration with different view engines (i.e. porting information into front end templates), creates common settings such as port to use for connecting, and allows for additional request processing (middleware) to be inserted into request handling. It is unopinionated, meaning that you can structure it in various ways and use many different middleware options in myriad configurations. |
+| Routing | Routing is how the client request is connected to the code they will receive |
+| Server Side Routing | The code served to the user is determined by the url and corresponding HTTP request. Pros: requests only needed data, search engines are optimised for webpages that come from the server. Cons: each request triggers a full page refresh (can be redundant), full page refreshing can take time (dependent on website contents) |
+| Client Side Routing | The page is loaded and the code served to the user is determined by the JavaScript loaded on the page. Adjustments to the url cause a change in state with the JS, but do not trigger full page reload. Pros: less data is processed during client interactions resulting in generally faster UI, easier to implement smooth transitions/animations. Cons: Entire website must be loaded on first request (can be slow), potential to download unnecessary resources, requires more set up, less optimised SEO |
+| Web Request Response Cycle (WRRC) | This is how information flows through a web app: client opens brower/enters url, request gets sent to the server which takes the url request, server follows it's routing to serve back the requested web document and passes it to the view, the view renders the information in the desired format back to the client in their browser |
 
 - [Wikipedia: Web Server](https://en.wikipedia.org/wiki/Web_server)
 - [MDN: What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
@@ -66,10 +69,10 @@ Web Request Response Cycle (WRRC) | This is how information flows through a web 
 
 ## Notes for Required Readings
 
-[MDN: Express/Node Introduction](#mdn-introduction-to-express-node)
-[NPM Docs: About npm](#npm-docs-about-npm)
-[What is TDD?](#tdd)
-[Video: Github: Continuous Integration Continuous Delivery](#video-github-cicd)
+- [MDN: Express/Node Introduction](#mdn-introduction-to-express-node)
+- [NPM Docs: About npm](#npm-docs-about-npm)
+- [What is TDD?](#tdd)
+- [Video: Github: Continuous Integration Continuous Delivery](#video-github-cicd)
 
 ### [MDN Introduction to Express Node](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
 
@@ -104,7 +107,7 @@ Name | Function
 - Run packages w/o downloading them with ```npx```
 - Free to share packages publicly
 
-### [TDD](https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'tdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
+### [TDD](https://www.agilealliance.org/glossary/tdd)
 Rules for Test Driven Development (TDD hereafter):
 
 1. Write unit tests describing an aspect of the program

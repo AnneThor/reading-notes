@@ -17,6 +17,10 @@ A compilation of my notes as I progress through the JS 401 Code Fellows Course
 
 **[Notes on Prework Readings](pre-work/prework.md)**
 
+**[Processes]**
+
+[Node Ecosystem, TDD, CI/CD](week1/node-tdd-cicd.md)
+
 ### Course Overview
 
 Backend | Frontend
@@ -29,6 +33,7 @@ Backend | Frontend
 ### Course Modules
 #### Data Modeling
 #### Express API Server 
+[NodeJS & Express Overview](backend/node-express-overview.md)
 #### Authentication and Authorization 
 #### Realtime
 **Sockets, Messages, Queuing**

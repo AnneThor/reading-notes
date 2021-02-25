@@ -24,6 +24,7 @@ Backend | Frontend
 #### Data Modeling
 #### Express API Server 
 [NodeJS & Express Overview](backend/node-express-overview.md)
+[Express REST API Overview](backend/Express-REST-API.md)
 #### Authentication and Authorization 
 #### Realtime
 **Sockets, Messages, Queuing**

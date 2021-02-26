@@ -6,7 +6,7 @@
 
 1. Adding timestamps to make a log of activity
 
-2. Checking login creditials of user
+2. Checking login credentials of user
 
 3. Taking information from params/query string to request info from server
 

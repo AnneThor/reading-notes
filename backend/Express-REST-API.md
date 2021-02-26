@@ -23,6 +23,8 @@ Middleware shouldn't be ending the process unless it is an error, in that case t
 You apply the middleware before the request reaches the server. Then server responds based on your fully modified request object with the response.
 
 ## What can cause express to error with “Request headers sent twice, cannot start a second response”
+ 
+The error means that your request has somehow triggered the server to be attempting to reply to you twice; it can happen in your handler logic if you trigger an error to ```res.status(500)...``` but do not ```return res.status(500)...``` that. What happens in that scenario is that you rend the first response status and then continue to run through the other outcomes, so two responses are generated.
 
 ## Document the following Vocabulary Terms
 

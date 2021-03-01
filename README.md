@@ -10,6 +10,7 @@ A compilation of my notes as I progress through the JS 401 Code Fellows Course
 ### Misc Topics 
 
 [Node Ecosystem, TDD, CI/CD](week1/node-tdd-cicd.md)
+
 [Object Oriented Design, TDD, Etc](week2/ood-tdd.md)
 
 ### Course Overview

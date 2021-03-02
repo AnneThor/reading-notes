@@ -41,7 +41,7 @@ super | A function inside a child class that calls the constructor value of the 
 this | A keyword used by an object to refer to itself; can be called to reference object attributes/methods
 Test Driven Development (TDD) | A strategy where unit tests are written before the program is built to identify the exact desirable/expected behavior and help direct the designers to the minimal implementation that acheives the required outcomes
 Jest | A JavaScript testing program that can be imported and used to create and run unit tests
-Continuous Integration (CI) | 
+Continuous Integration (CI) | A strategy where work is merged into the main product branch periodically, can be attached to passing tests, so work would be integrated whenever passing unit tests
 REST | Representational State Transfer, refers to the WRRC cycle of HTTP requests characterized by statelessness and separation of client/server
 Data Model | Data Structures/Models are explicit structures of how data is stored, organized and manipulated
 

@@ -10,7 +10,7 @@
 
 3. Isolates problems allowing for a faster development cycle.
 
-## In what case would you need to use beforeEach() or afterEach() in a test suite?
+## In what case would you need to use ```beforeEach()``` or ```afterEach()``` in a test suite?
 
 You use ```beforeEach()``` when you need to set up a scenario to run tests against. For example, in the recent assignment, I added some data to the fake database model before each test in order to document how function calls on the database behaved (and how they affected existing data). ```afterEach()``` allows you to "tear down" or "reset" the preconditions between tests. This allows testing to truly be isolated in testing each component singularly and your test outcome will not be affected by the behavior or side effects from previous tests.
 
@@ -47,11 +47,11 @@ Data Model | Data Structures/Models are explicit structures of how data is store
 
 ## Reading Notes
 
-** [Academind: MySQL vs Mongo (video)](#mysql-vs-mongo)
+**[Academind: MySQL vs Mongo (video)](#mysql-vs-mongo)
 
-** [The Geek Stuff: NoSQL vs SQL Example](#nosql-vs-sql-example)
+**[The Geek Stuff: NoSQL vs SQL Example](#nosql-vs-sql-example)
 
-** [Highly Scalable Blog: NoSQL vs SQL](#nosql-vs-sql)
+**[Highly Scalable Blog: NoSQL vs SQL](#nosql-vs-sql)
 
 ### [MySQL Vs Mongo](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
 

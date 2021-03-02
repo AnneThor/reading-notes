@@ -47,11 +47,11 @@ Data Model | Data Structures/Models are explicit structures of how data is store
 
 ## Reading Notes
 
-**[Academind: MySQL vs Mongo (video)](#mysql-vs-mongo)
+**[Academind: MySQL vs Mongo (video)](#mysql-vs-mongo)**
 
-**[The Geek Stuff: NoSQL vs SQL Example](#nosql-vs-sql-example)
+**[The Geek Stuff: NoSQL vs SQL Example](#nosql-vs-sql-example)**
 
-**[Highly Scalable Blog: NoSQL vs SQL](#nosql-vs-sql)
+**[Highly Scalable Blog: NoSQL vs SQL](#nosql-vs-sql)**
 
 ### [MySQL Vs Mongo](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
 

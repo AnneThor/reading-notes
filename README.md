@@ -24,6 +24,8 @@ Backend | Frontend
 
 ### Course Modules
 #### Data Modeling
+[Linked Lists](data-structures/linked-lists.md)
+
 #### Express API Server 
 [NodeJS & Express Overview](backend/node-express-overview.md)
 

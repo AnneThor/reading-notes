@@ -7,12 +7,6 @@ A compilation of my notes as I progress through the JS 401 Code Fellows Course
 
 **[Notes on Prework Readings](pre-work/prework.md)**
 
-### Misc Topics
-
-[Node Ecosystem, TDD, CI/CD](week1/node-tdd-cicd.md)
-
-[Object Oriented Design, TDD, Etc](week2/oop-tdd.md)
-
 ### Course Overview
 
 Backend | Frontend
@@ -23,20 +17,31 @@ Backend | Frontend
 [Realtime (Sockets, Messages, Queuing)](#realtime) | [React Native and other Frameworks](#react-native-etc)
 
 ### Course Modules
+
 #### Data Modeling
+[Object Oriented Design, TDD, Etc](week2/oop-tdd.md)
 [Linked Lists](data-structures/linked-lists.md)
 
 #### Express API Server
+[Node Ecosystem, TDD, CI/CD](week1/node-tdd-cicd.md)
+
 [NodeJS & Express Overview](backend/node-express-overview.md)
 
 [Express REST API Overview](backend/Express-REST-API.md)
+
 #### Authentication and Authorization
 [Authentication & Authorization](authentication/auth.md)
 
+[Bearer Authentication](authentication/bearer-auth.md)
+
 #### Realtime
 **Sockets, Messages, Queuing**
+
 #### Hooks and Context
+
 #### React Basics
 **Component Based Design**
+
 #### Redux
+
 #### React Native Etc

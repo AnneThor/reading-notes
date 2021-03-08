@@ -5,9 +5,9 @@
 ## Notes for Required Readings
 
 - [Hacker News: Passwords With BCrypt Hashing](#bcrypt-password-hashing)
-- [Wikipedia: Basic Access Authentication](basic-access-authentication)
+- [Wikipedia: Basic Access Authentication](#basic-access-authentication)
 - [OWASP: Authentication Cheat Sheet](#authentication-cheat-sheet)
-- [BCrypt: npm Docs](#bcrypt-npm)
+- [BCrypt: npm Docs](https://www.npmjs.com/package/bcrypt)
 
 ## Review, Research, and Discussion
 

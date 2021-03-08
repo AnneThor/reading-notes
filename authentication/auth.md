@@ -35,6 +35,7 @@ module.exports = new Singleton();
 What express is doing is simplifying the HTTP requests and providing syntactic sugar to make it easier and more concise to write/read routing options. So you're just abstracting the actual HTTP base requests into more simple language. If I were writing that myself, I could definitely copy that implementation of the global module.exports function, that is the trick.
 
 ### Document the following Vocabulary Terms
+
 Term | Definition
 ---- | ----------
 Router Middleware | Functions that modify the request object in a WRRC cycle

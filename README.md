@@ -34,6 +34,8 @@ Backend | Frontend
 
 [Bearer Authentication](authentication/bearer-auth.md)
 
+[Access Control](authentication/access-control.md)
+
 #### Realtime
 **Sockets, Messages, Queuing**
 

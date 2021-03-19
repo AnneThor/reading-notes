@@ -14,7 +14,7 @@ Backend | Frontend
 [Data Modeling](#data-modeling) | [React Basics / Component Based Design](#react-basics)
 [Express API Server](#express-api-server) | [Hooks and Context](#hooks-and-context)
 [Authentication and Authorization](#authentication-and-authorization) | [Redux](#redux)
-[Realtime (Sockets, Messages, Queuing)](#realtime) | [React Native and other Frameworks](#react-native-etc)
+[Realtime](#realtime) | [React Native and other Frameworks](#react-native-etc)
 
 ### Course Modules
 
@@ -40,7 +40,8 @@ Backend | Frontend
 [Access Control](authentication/access-control.md)
 
 #### Realtime
-**Sockets, Messages, Queuing**
+
+[Event Based Programming](realtime/event-driven-programs.md)
 
 #### Hooks and Context
 

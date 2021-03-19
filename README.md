@@ -20,7 +20,10 @@ Backend | Frontend
 
 #### Data Modeling
 [Object Oriented Design, TDD, Etc](week2/oop-tdd.md)
+
 [Linked Lists](data-structures/linked-lists.md)
+
+[Stacks and Queues](data-structures/stacks-and-queues.md)
 
 #### Express API Server
 [Node Ecosystem, TDD, CI/CD](week1/node-tdd-cicd.md)

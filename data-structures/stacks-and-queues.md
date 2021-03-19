@@ -1,4 +1,4 @@
-# Linked Lists
+# Stacks and Queues
 
 **[Return to Main Page](https://annethor.github.io/reading-notes/)**
 

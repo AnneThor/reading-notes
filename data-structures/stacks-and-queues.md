@@ -25,7 +25,7 @@ Stacks are like a stack of plates
 
 Queues are like waiting in line and you add to the back (```rear```) and remove from the ```front```
 
-### Common Methods for **Stacks** include
+### Common Methods for **Queues** include
 
 Method | Complexity
 ------ | ----------

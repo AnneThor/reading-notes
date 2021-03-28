@@ -70,6 +70,7 @@ function login(username) {
 
 #### Removing Listeners
 
+
 Reasons to want to remove an event listener from an event: 
 
 - Performance reasons (event no longer needed)

@@ -38,7 +38,7 @@ Capabilities | Powers such as read, create, update or delete that are assigned t
 
 Event driven programming makes uses an **Event Handler** (i.e. a callback function that happens when an event is triggered) and a **Main Loop** that listens for event triggers and calls associated events.
 
-#### EventEmitter
+#### EventEmitter 
 
 EventEmitter is a native Node.js module that allows to integrate event driven programming (npm packages for faster event emitters exist if needed, EventEmitter2 and EventEmitter3). EventEmitter is accessed through the ```events``` module and needs to be imported and instantiated:
 
@@ -58,10 +58,10 @@ function userJoined(username) {
   alertAllUsers('Use ' + username + ' has joined the chat.');
  }
 
-// Run the userJoined function when a 'userJoined' event is triggered
+// Run the userJoined function when a 'userJoined' event is triggered 
 chatRoomEvents.on('userJoined', userJoined);
 
-// We need the chat room to emit the event to be sure that it is
+// We need the chat room to emit the event to be sure that it is 
 // called when someone joins the room
 function login(username) {
   chatRoomEvents.emit('userJoined', username);
@@ -70,7 +70,8 @@ function login(username) {
 
 #### Removing Listeners
 
-Reasons to want to remove an event listener from an event:
+
+Reasons to want to remove an event listener from an event: 
 
 - Performance reasons (event no longer needed)
 - Avoid memory leaks (event listener references an object that is no longer needed but prevents garbage clean up from collecting it)
@@ -114,14 +115,14 @@ When the EventEmitter object emits an event, all functions attached to the event
 
 #### Asynchronous vs Synchronous
 
-```EventEmitter``` calls the events synchronously in the order they were registered to avoid race conditions/logic errors
+```EventEmitter``` calls the events synchronously in teh order they were registered to avoid race conditions/logic errors
 
 - When appropriate, listener events can switch to async using ```setImmediate()``` or ```process.nextTick()```
 
-#### Handling events only once
+#### Handling events only once 
 
 Default is to calls the listener every time the event is emitted; you can make it once using ```EventEmitter.once()```
 
-#### Error Events
+#### Error Events 
 
 If an error happens, error will be emitted and will stop the process, so you need to write error handlers

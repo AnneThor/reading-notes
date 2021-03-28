@@ -1,7 +1,7 @@
 # reading-notes
 Reading Notes for Code Fellows 401 JS
 
-A compilation of my notes as I progress through the JS 401 Code Fellows Course
+Reading notes and links to course material for full-stack JavaScript web development course
 
 ## Code 401 - Advanced Software Development
 
@@ -42,6 +42,8 @@ Backend | Frontend
 #### Realtime
 
 [Event Based Programming](realtime/event-driven-programs.md)
+
+[Socket.io](realtime/socket-io.md)
 
 #### Hooks and Context
 

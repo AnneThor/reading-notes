@@ -25,6 +25,8 @@ Backend | Frontend
 
 [Stacks and Queues](data-structures/stacks-and-queues.md)
 
+[Trees](data-structures/trees.md)
+
 #### Express API Server
 [Node Ecosystem, TDD, CI/CD](week1/node-tdd-cicd.md)
 

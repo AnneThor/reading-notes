@@ -47,6 +47,8 @@ Backend | Frontend
 
 [Socket.io](realtime/socket-io.md)
 
+[Message Queues](realtime/message-queue.md)
+
 #### Hooks and Context
 
 #### React Basics

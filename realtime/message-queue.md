@@ -53,7 +53,7 @@ Packets | Packets are small pieces of data sent over a network that include the 
 
 ## [Chat Example](https://socket.io/get-started/chat/)
 
-[Created basic chat example](/chat-example)
+[Created basic chat example](https://github.com/AnneThor/reading-notes/tree/main/realtime/chat-example)
 
 
 ## [Rooms Namespaces](https://socket.io/docs/v3/rooms/index.html)

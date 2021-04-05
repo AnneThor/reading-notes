@@ -44,7 +44,7 @@ SNS | SQS
 Simple Notification Service | Simple Queue Service
 Publisher/Subscriber System (you own a topic and publish to it, subscribers get notices) | Queuing servie for message processing 
 Deliver to many subscribers of various types (SQS, Lambda, Email) | Must poll the queue to discover new events, nothing automatically invoked, separate thread to poll the queue and process/delete from queue
- - | Messages processed by a single consumer/service typically 
+Broadcasts to multiple parallel services | Messages processed by a single consumer/service typically 
  
 How to determine which to use?
 

@@ -49,6 +49,8 @@ Backend | Frontend
 
 [Message Queues](realtime/message-queue.md)
 
+[Event Driven Architecture](realtime/event-driven-architecture.md)
+
 #### Hooks and Context
 
 #### React Basics

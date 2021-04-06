@@ -10,11 +10,9 @@
 
 ### What’s the difference between a FIFO and a standard queue?
 
-(I'm answering this in regards to AWS services, Lambda, SNS, SQS), in terms of general data structures Queues are FIFO.
-
 Standard queue does not guarantee order and messages may be duplicated. Processing capacity is higher.
 
-In reference to Amazon SQS (simple queue service) this means that there are other mechanisms in place to guarantee that messages are not duplicated. Messages do not necessarily get deleted after multiple failed attempts, keeps messages secure. A big advantage: can convert synchronous patterns to async. One message **CAN NOT** have multiple consumers in SQS, it gets deleted after being consumed by one customer.
+SQS (simple queue service) this means that there are other mechanisms in place to guarantee that messages are not duplicated. Messages do not necessarily get deleted after multiple failed attempts, keeps messages secure. A big advantage: can convert synchronous patterns to async. One message **CAN NOT** have multiple consumers in SQS, it gets deleted after being consumed by one customer.
 
 ### How can the server be assured a message was properly received?
 
@@ -22,11 +20,11 @@ The client app can emit a message back to the server that the message was receiv
 
 ### What classic design pattern is best represented by event driven programming?
 
-Publisher/subscriber model.
+The observer pattern, where an object maintains a list of dependents and notifies them about any changes in state (to which they can either respond or ignore depending on their functionality).
 
 ### How do you test an event driven system?
 
-You test that the handlers are doing what you expect them to do, you can assume that the emit/on actions perform as expected. When I write tests I also check that the "emit" functions are being produced by the handler functions as expected.
+You test that the handlers are doing what you expect them to do, you can assume that the emit/on actions perform as expected. So basically unit tests, and then you can run end to end tests by deploying the whole system against a test environment and checking expected results.
 
 ## Vocabulary Terms
 

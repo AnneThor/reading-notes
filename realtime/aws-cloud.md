@@ -72,7 +72,7 @@ We have servers running virtual machines, and additional space is accrued by add
 
 This is "Amazon Elastic Compute Cloud", secure/resizable compute capacity in teh cloud
 
-### [Elastic Beanstalk]((https://www.youtube.com/watch?v=SrwxAScdyT0)
+### [Elastic Beanstalk](https://www.youtube.com/watch?v=SrwxAScdyT0)
 
 Deploys, manages and scales web apps and services; using manage containers that allow different platforms
 You choose your platform and additional resources (amazon dbs, private cloud, etc), then upload your code

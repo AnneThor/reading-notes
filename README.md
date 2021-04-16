@@ -15,6 +15,7 @@ Backend | Frontend
 [Express API Server](#express-api-server) | [Hooks and Context](#hooks-and-context)
 [Authentication and Authorization](#authentication-and-authorization) | [Redux](#redux)
 [Realtime](#realtime) | [React Native and other Frameworks](#react-native-etc)
+[AWS](#amazon-web-services) | **
 
 ### Course Modules
 
@@ -49,9 +50,13 @@ Backend | Frontend
 
 [Message Queues](realtime/message-queue.md)
 
-[AWS Cloud Servers](realtime/aws-cloud.md)
-
 [Event Driven Architecture](realtime/event-driven-architecture.md)
+
+#### Amazon Web Services
+
+[AWS Cloud Servers](aws/aws-cloud.md)
+
+[AWS: S3 and Lambda](aws/aws-s3-lambda.md)
 
 #### Hooks and Context
 

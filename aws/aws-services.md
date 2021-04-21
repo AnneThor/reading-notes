@@ -45,6 +45,7 @@ CDN | Content Delivery Networks are distributed systems of servers that work tog
 
 ## [AWS Api Gateway Overview](https://www.serverless.com/amazon-api-gateway)
 
+<<<<<<< HEAD
 Amazon API Gateway is a service that allows developers to provide the HTTP endpoints of a REST API or WebSocket API and connect them with appropriate functionality, can handle authentication/authorization/access control and can offer detailed metrics and tracing about API request
 
 Has a GUI, but better to create API structure in code
@@ -66,6 +67,9 @@ Use case is building serverless HTTP APIs, probably not the solution for an ultr
 - It cannot be fine tuned
 - There aren't many alternatives vs. running your own servers
 - Gateway limitations, but they are pretty large so unlikely to be causing issues
+=======
+Amazon API Gateway is a service that allows developers to provide the HTTP endpoints of a REST API or WebSocket API and connect them with appropriate functionality, can handle authentication/authorization/access control
+>>>>>>> 2c6fd91d1bed9fb599ecb5686fca461bce45a114
 
 ### How AWS API Gateway Works
 
@@ -75,6 +79,7 @@ Wires up the backend/front end of your website;
 
 ## [DynamoDB Guide](https://www.dynamodbguide.com/what-is-dynamo-db/)
 
+<<<<<<< HEAD
 DynamoDB is a hosted NoSQL database offered by AWS
 - reliable performance at any scale
 - managed experience (access controls)
@@ -106,6 +111,8 @@ String Set, Number Set, Binary Set
 
 Unlike a relational database, you do not have to provide all non required field (attribute) entries at the time of creation, they can be added later on
 
+=======
+>>>>>>> 2c6fd91d1bed9fb599ecb5686fca461bce45a114
 ## [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
 
 ## [Dynamoose](https://dynamoosejs.com/getting_started/Introduction/)

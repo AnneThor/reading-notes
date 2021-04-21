@@ -58,6 +58,8 @@ Backend | Frontend
 
 [AWS: S3 and Lambda](aws/aws-s3-lambda.md)
 
+[AWS: API, Dynamo and Lambda](aws/aws-services.md)
+
 #### Hooks and Context
 
 #### React Basics

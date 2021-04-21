@@ -60,6 +60,8 @@ Backend | Frontend
 
 [AWS: API, Dynamo and Lambda](aws/aws-services.md)
 
+[AWS: Events](aws/aws-events.md)
+
 #### Hooks and Context
 
 #### React Basics

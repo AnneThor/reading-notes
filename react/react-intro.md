@@ -14,15 +14,15 @@
 
 ### Name 5 Javascript UI Frameworks (other than React)
 
-Ext JS by Sencha: specialized for managing large amounts of data, paid framework
+**Ext JS by Sencha:** specialized for managing large amounts of data, paid framework
 
-Angular: free open source by Google, uses TypeScript, full support from Google behind it
+**Angular:** free open source by Google, uses TypeScript, full support from Google behind it
 
-Vue: free and open source, template syntax with component based architecture, has good documentation and can be scaled from use as a library to use as a framework
+**Vue:** free and open source, template syntax with component based architecture, has good documentation and can be scaled from use as a library to use as a framework
 
-Ember: free and open source, focus on convention and limiting developer decisions  
+**Ember:** free and open source, focus on convention and limiting developer decisions  
 
-Svelte 3: unique in that it shifts the work into the compile step (as opposed to in the browser)
+**Svelte 3:** unique in that it shifts the work into the compile step (as opposed to in the browser)
 
 ### What’s the difference between a framework and a library?
 

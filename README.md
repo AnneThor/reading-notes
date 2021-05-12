@@ -11,7 +11,7 @@ Reading notes and links to course material for full-stack JavaScript web develop
 
 Backend | Frontend
 ------- | --------
-[Data Modeling](#data-modeling) | [React Basics / Component Based Design](#react-basics)
+[Data Modeling](#data-modeling) | [React: Components](#react-basics)
 [Express API Server](#express-api-server) | [Hooks and Context](#hooks-and-context)
 [Authentication and Authorization](#authentication-and-authorization) | [Redux](#redux)
 [Realtime](#realtime) | [React Native and other Frameworks](#react-native-etc)
@@ -65,7 +65,8 @@ Backend | Frontend
 #### Hooks and Context
 
 #### React Basics
-**Component Based Design**
+
+[React: Introduction](react/react-intro.md)
 
 #### Redux
 

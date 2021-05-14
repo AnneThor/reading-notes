@@ -68,6 +68,8 @@ Backend | Frontend
 
 [Props & State](react/props-state.md)
 
+[Component Structure](react/components.md)
+
 #### Hooks and Context
 
 #### Redux

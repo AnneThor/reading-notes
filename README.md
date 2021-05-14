@@ -68,6 +68,8 @@ Backend | Frontend
 
 [React: Introduction](react/react-intro.md)
 
+[Props & State](react/props-state.md)
+
 #### Redux
 
 #### React Native Etc

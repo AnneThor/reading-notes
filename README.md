@@ -62,13 +62,13 @@ Backend | Frontend
 
 [AWS: Events](aws/aws-events.md)
 
-#### Hooks and Context
-
 #### React Basics
 
 [React: Introduction](react/react-intro.md)
 
 [Props & State](react/props-state.md)
+
+#### Hooks and Context
 
 #### Redux
 

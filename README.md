@@ -70,6 +70,8 @@ Backend | Frontend
 
 [Component Structure](react/components.md)
 
+[Routing](react/routing.md)
+
 #### Hooks and Context
 
 #### Redux

@@ -295,7 +295,7 @@ function FriendStatus(props) {
 }
 ```
 
-If your effect returns a function, React will run that when it is time to clean up; the return function is an optional parameter
+If your effect returns a function, React will run that when it is time to clean up; the return function is an optio45nal parameter
 - Every effect may return a function that cleans up after it
 - React performs the cleanup when the component unmounts; but effects run for every render not just once, so React ALSO cleans up from the previous render before re running the effect (you can opt out of that)
 - You do not have to return a named function in the cleanup, it can be an arrow function or whatever you want

@@ -20,7 +20,8 @@ Backend | Frontend
 ### Course Modules
 
 #### Data Modeling
-[Object Oriented Design, TDD, Etc](week2/oop-tdd.md)
+
+[Hash Tables](data-structures/hash-tables.md)
 
 [Linked Lists](data-structures/linked-lists.md)
 
@@ -29,6 +30,9 @@ Backend | Frontend
 [Trees](data-structures/trees.md)
 
 #### Express API Server
+
+[Object Oriented Design, TDD, Etc](week2/oop-tdd.md)
+
 [Node Ecosystem, TDD, CI/CD](week1/node-tdd-cicd.md)
 
 [NodeJS & Express Overview](backend/node-express-overview.md)
@@ -36,6 +40,7 @@ Backend | Frontend
 [Express REST API Overview](backend/Express-REST-API.md)
 
 #### Authentication and Authorization
+
 [Authentication & Authorization](authentication/auth.md)
 
 [Bearer Authentication](authentication/bearer-auth.md)

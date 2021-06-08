@@ -79,6 +79,8 @@ Backend | Frontend
 
 #### Hooks and Context
 
+[Hooks & Context](react/hooks-context.md)
+
 [Custom Hooks](react/custom-hooks.md)
 
 [Hooks API](react/hooks-api.md)

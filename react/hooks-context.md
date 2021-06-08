@@ -12,7 +12,7 @@
 
 ## Review, Research, and Discussion
 
-### Describe use cases for useMemo() and useReducer()
+### Describe use cases for `useMemo()` and `useReducer()`
 
 Point of `useMemo` is to make the browser faster - if you have some piece of information that is displayed using some computationally expensive process, useMemo can make this happen only when the dependencies have changed (and not on every single render). Point here is to minimize how often expensive operations are called.
 
@@ -43,7 +43,7 @@ Term | Definition
 ---- | ----------
 reducer | In general, a reducer function is usually something that takes multiple inputs and returns one value, not sure what you're looking for me to say in this context, I guess that is somewhat analogous to using a switch statement to distill multiple possible options into one outcome
 
-### **[React Context](https://reactjs.org/docs/context.html**
+### **[React Context](https://reactjs.org/docs/context.html)**
 
 Context offers a way to pass data through the component tree laterally. Idea is to use them for things that are relevant everywhere
 

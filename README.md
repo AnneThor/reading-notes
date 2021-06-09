@@ -79,6 +79,8 @@ Backend | Frontend
 
 #### Hooks and Context
 
+[Authorization & Login](react/auth-login.md)
+
 [Hooks & Context](react/hooks-context.md)
 
 [Custom Hooks](react/custom-hooks.md)

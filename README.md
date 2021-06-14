@@ -89,4 +89,6 @@ Backend | Frontend
 
 #### Redux
 
+[Redux Intro](react/redux.md)
+
 #### React Native Etc

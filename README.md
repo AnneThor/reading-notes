@@ -21,6 +21,8 @@ Backend | Frontend
 
 #### Data Modeling
 
+[Graphs](data-structures/graphs.md)
+
 [Hash Tables](data-structures/hash-tables.md)
 
 [Linked Lists](data-structures/linked-lists.md)

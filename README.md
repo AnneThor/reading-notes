@@ -93,4 +93,6 @@ Backend | Frontend
 
 [Redux Intro](react/redux.md)
 
+[Combined Reducers](react/combined-reducers.md)
+
 #### React Native Etc

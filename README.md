@@ -91,6 +91,8 @@ Backend | Frontend
 
 #### Redux
 
+[Redux, Etc](react/redux-etc.md)
+
 [Redux and Async](react/redux-async.md)
 
 [Redux Intro](react/redux.md)

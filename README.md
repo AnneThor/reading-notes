@@ -102,5 +102,8 @@ Backend | Frontend
 #### React Native Etc
 
 [React Native](react/react-native.md)
+<<<<<<< HEAD
 
 [Ethics in Tech](etc/ethics.md)
+=======
+>>>>>>> cedba2162460f2d5987b9d1997ab8b0301198615

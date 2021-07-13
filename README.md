@@ -100,3 +100,7 @@ Backend | Frontend
 [Combined Reducers](react/combined-reducers.md)
 
 #### React Native Etc
+
+[React Native](react/react-native.md)
+
+[Ethics in Tech](etc/ethics.md)
